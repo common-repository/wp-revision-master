@@ -1,0 +1,19 @@
+.templateside{
+    float: right;
+    width: 190px;
+}
+
+.striped > tbody > .revision-post-1{
+    background-color: #DEEDFF;
+}
+
+.tmx-revision-info img {
+    float: left;
+    margin-right: 7px;
+}
+
+@media screen and (max-width:782px){
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column){
+        display: table-cell;
+    }
+}
